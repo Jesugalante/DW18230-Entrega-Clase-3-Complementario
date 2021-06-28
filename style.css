@@ -1,0 +1,250 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	background-color: rgb(232, 212, 162);
+}
+
+main {
+	background-color: #ADD2C2;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.perdigonlogo {
+	color: rgb(244, 126, 33);
+	font-size: 60px;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+h2 {
+	display: inline-block;
+}
+
+.nav {
+	background-color: #CFE795;
+	border-top: 2px solid #F7EF81;
+	border-bottom: 2px solid #F7EF81;
+	text-align: right;	
+	padding: 12px;
+	width: 100%;
+}
+
+nav li {
+	display: inline-block;
+	padding: 9px;
+}
+
+.nav__li-input1 {
+	border-radius: 1em;
+	padding: 4px;
+	font-size: 1em;
+}
+
+.nav__li-input2 {
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 50px;
+	padding: 3px;
+	border-radius: 1em;
+	font-size: 1.1em;
+
+}
+.nav__li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.4em;
+	
+
+}
+
+.nav__li:hover >a {
+	color: #bbb
+}
+
+.titulo {
+	font-size: 35px;
+	color: rgb(244, 126, 33);
+	margin: 0px 0px 10px 10px;
+}
+
+.subtitulo {
+	font-size: 20px;
+	margin: 0px 0px 20px 10px;
+
+}
+
+.footer {
+	background-color: #A7D3A6;
+	border-top: 2px solid black;
+	height: 130px;
+}
+
+.footer__h4 {
+	padding: 9px;
+}
+
+.footer__li {
+	display: inline-block;
+	padding: 9px;
+	font-size: 1.2em;
+	border-right: 2px solid black;
+}
+
+.footer__li a {
+	text-decoration: none;
+	color: rgb(244, 126, 33)
+}
+
+.footer__li:hover >a {
+	color: #F7EF81
+}
+
+
+
+
+
+
+/*secciones*/
+
+/* index.html */
+
+th {
+	color: #F7EF81;
+	font-size: 25px;
+}
+
+td {
+	color: red;
+	font-size: 20px;
+	padding-right: 25px;
+}
+
+.main-index {
+	display: inline-block;
+	width: 100%;
+}
+
+.main-index__table {
+	border: 5px solid rgb(244, 126, 33);
+	border-radius: 1em;
+	background-image: url(https://media.giphy.com/media/NoVU5MdoWC3umaD0Ju/giphy.gif);
+	background-size: cover;
+	display: inline-block;
+	margin: 0px 50px 0px 10px;
+}
+
+.spotify {
+	display: inline-block;	
+}
+
+/* Nosotros.html*/
+
+.main-nosotros {
+	flex-grow: 1;
+}
+
+.main-nosotros__section__article {
+	display: inline;
+}
+.main-nosotros__section__article-parrafo {
+	color: whitesmoke;
+	margin: 10px 30px 0px 10px;
+	font-size: 30px;
+	display: inline-block;
+	width: 50%;
+	border: 7px solid rgb(244, 126, 33);
+	background-color: rgb(232, 212, 162);
+}
+
+.main-nosotros__div {
+	display: inline-block;
+	border: 7px solid rgb(244, 126, 33);
+
+}
+
+/* Dondecomprar.html */
+
+.main-dondecomprar {
+	flex-grow: 1;
+}
+
+.main-dondecomprar__section {
+	margin: 20px 50px 0px 9px;
+	width: 100%;
+}
+
+.main-dondecomprar__section__div-input1 {
+	width: 300px;
+	height: 30px;
+	font-size: 1.2em;
+	border-radius: 1em;
+	padding: 2px;
+}
+
+.main-dondecomprar__section__div-input2 {
+	font-size: 1.2em;
+	height: 30px;
+}
+
+.main-dondecomprar__section__div-googlemaps {
+	margin-top: 20px;
+	border: 3px solid black;
+	border-radius: 1em;
+}
+
+/*Perdigonentulocal.html*/
+
+.main-perdigonentulocal {
+	flex-grow: 1;
+}
+
+.main-perdigonentulocal__formulario {
+	margin: 10px;
+	padding: 9px 0px 30px;
+	width: 500px;
+	font-size: 1.2em;
+}
+
+.main-perdigonentulocal__formulario__fieldset {
+	background-color: rgb(232, 212, 162);
+	color: whitesmoke;
+}
+
+.formularioentulocal__fieldset label {
+	font-size: 1em;
+}
+.formularioentulocal__fieldset leyend {
+	font-size: 1em;
+}
+
+.main-perdigonentulocal__formulario__fieldset-input {
+	font-size: 1em;
+	display: block;
+
+}
+
+
+/*Contacto.html*/
+
+.main-contacto {
+	flex-grow: 1;
+}
+
+.main-contacto__ul-li a {
+	text-decoration: none;
+	color: rgb(244, 126, 33);
+	padding-left:  10px;
+	font-size: 25px;
+
+}
+
+.main-contacto__ul-li:hover >a {
+	color: #F7EF81
+}
